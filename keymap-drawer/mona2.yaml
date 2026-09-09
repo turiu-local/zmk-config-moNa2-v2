@@ -40,8 +40,8 @@ layers:
   - LANG2
   - {t: SPACE, h: '2'}
   - {t: '&to_layer_0 LANG1', h: '3'}
-  - {t: ENTER, h: '1'}
-  - BACKSPACE
+  - ENTER
+  - {t: BACKSPACE, h: '1'}
   - ESCAPE
   '1':
   - '1'
@@ -83,8 +83,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   '2':
   - '!'
