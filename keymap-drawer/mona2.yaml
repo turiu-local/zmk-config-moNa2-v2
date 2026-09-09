@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - F2
+  - ESCAPE
   - H
   - J
   - K
@@ -36,13 +36,13 @@ layers:
   - /
   - LCTRL
   - LEFT WIN
-  - F16
-  - BACKSPACE
-  - {t: ENTER, h: '2'}
-  - {t: '&to_layer_0 LANG2', h: '3'}
+  - LALT
+  - LANG2
+  - {t: SPACE, h: '2'}
   - {t: '&to_layer_0 LANG1', h: '3'}
-  - {t: SPACE, h: '1'}
-  - LEFT ALT
+  - BACKSPACE
+  - {t: ENTER, h: '1'}
+  - ESCAPE
   '1':
   - '1'
   - '2'
@@ -73,8 +73,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - '|'
   - {t: ▽, type: trans}
