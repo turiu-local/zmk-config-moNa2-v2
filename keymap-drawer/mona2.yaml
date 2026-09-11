@@ -34,14 +34,14 @@ layers:
   - ','
   - .
   - /
-  - LCTRL
+  - Sft+LEFT COMMAND
   - LEFT WIN
   - LALT
   - LANG2
   - {t: SPACE, h: '2'}
   - {t: '&to_layer_0 LANG1', h: '3'}
-  - ENTER
-  - {t: BACKSPACE, h: '1'}
+  - Ctl+BACKSPACE
+  - {t: ENTER, h: '1'}
   - ESCAPE
   '1':
   - '1'
