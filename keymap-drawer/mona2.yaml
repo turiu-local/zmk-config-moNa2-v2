@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: LEFT CONTROL}
   - S
   - D
   - F
@@ -21,14 +21,14 @@ layers:
   - J
   - K
   - L
-  - ;
+  - '-'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - B
   - TAB
-  - F2
+  - ;
   - N
   - M
   - ','
@@ -95,8 +95,8 @@ layers:
   - ^
   - '&'
   - '*'
-  - '-'
-  - _
+  - '='
+  - +
   - '`'
   - '~'
   - '"'
@@ -137,7 +137,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
-  - UP ARROW
+  - {t: ▽, type: trans}
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -146,12 +146,12 @@ layers:
   - Ctl+Gui+LEFT ARROW
   - Ctl+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
+  - UP ARROW
   - RIGHT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
   - Gui+Sft+RIGHT ARROW
@@ -159,8 +159,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DELETE
   - PAGE UP
+  - {t: ▽, type: trans}
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
