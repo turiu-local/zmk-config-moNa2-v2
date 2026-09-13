@@ -37,10 +37,10 @@ layers:
   - Sft+LEFT COMMAND
   - LEFT ALT
   - LEFT COMMAND
-  - LANG2
+  - {t: LANG2, h: LEFT COMMAND}
   - {t: SPACE, h: '2'}
   - {t: '&to_layer_0 LANG1', h: '3'}
-  - Ctl+BACKSPACE
+  - BACKSPACE
   - {t: ENTER, h: '1'}
   - ESCAPE
   '1':
@@ -80,7 +80,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT COMMAND
-  - {t: ▽, type: trans}
+  - LEFT COMMAND
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -166,7 +166,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT COMMAND
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
