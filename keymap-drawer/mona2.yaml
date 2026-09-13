@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: mona2}
 layers:
   default:
-  - Q
+  - {t: Q, h: ESC}
   - W
   - E
   - R
@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - ESCAPE
+  - ;
   - H
   - J
   - K
@@ -28,15 +28,15 @@ layers:
   - V
   - B
   - TAB
-  - ;
+  - ''''
   - N
   - M
   - ','
   - .
   - /
   - Sft+LEFT COMMAND
-  - LEFT WIN
-  - LALT
+  - LEFT ALT
+  - LEFT COMMAND
   - LANG2
   - {t: SPACE, h: '2'}
   - {t: '&to_layer_0 LANG1', h: '3'}
@@ -54,7 +54,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
+  - LCTRL
   - {t: ▽, type: trans}
   - '['
   - ']'
@@ -79,7 +79,7 @@ layers:
   - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT COMMAND
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -135,12 +135,12 @@ layers:
   - PRINTSCREEN
   - Ctl+TAB
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE UP
   - HOME
   - {t: ▽, type: trans}
   - END
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT CONTROL
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
   - Ctl+Gui+LEFT ARROW
@@ -158,10 +158,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PAGE UP
-  - {t: ▽, type: trans}
   - PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
